@@ -9,42 +9,67 @@ const styles =StyleSheet.create({
         alignItems:'center',
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        marginTop:30,
+        marginTop:10,
+        paddingTop:15,
     },
     form:{
         width:'100%',
         height:'auto',
-        marginTop:30,
+        marginTop:10,
         padding:10,
     },
     formLabel:{
         color:'#000000',
         fontSize:18,
         paddingLeft:20,
+        fontWeight:'bold'
     },
     formInput:{
-        width:'90%',
-        borderRadius:50,
-        backgroundColor:'#f6f6f6',
+        borderRadius:10,
+        backgroundColor:'#D3D3D3',
         height:40,
         margin:12,
-        paddingLeft:10,
+        marginHorizontal:10,
+        paddingHorizontal:10,
     },
     buttonCalculator:{
         borderRadius:20,
         alignItems:'center',
         justifyContent:'center',
-        width:'90%',
         backgroundColor:'#FF0043',
         paddingTop:14,
         paddingBottom:14,
         marginLeft:12,
-        marginTop:30,
+        marginVertical:10,
+        marginHorizontal:10,
     },
     textButtonCalculator:{
-        fontSize:20,
-        color:'#ffffff'
+        fontSize:24,
+        color:'#ffffff',
+        fontWeight:'bold',
+    },
+    textErrorMessage:{
+        color:'red',
+        fontSize:14,
+        fontWeight:'bold',
+        width:'40%',
+    },
+    listImcs:{  
+        marginTop:150,
+        marginBottom:400,
+        width:'100%',        
+    },
+    textListImcs:{
+        marginVertical:10,        
+        backgroundColor:'#d3d3d3',
+        width:'100%',
+        padding:15,
+        borderRadius:20,
+        color:'darkred',
+        fontSize:24,
+        textAlign:'center'
     }
+   
 })
 
 export default styles;
