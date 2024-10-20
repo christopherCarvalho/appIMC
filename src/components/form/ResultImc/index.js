@@ -10,7 +10,7 @@ export default function ResultIMc(props) {
 
     const onShare = async () => {
         const result = await Share.share({
-            message: 'Meu imc hoje é: ' + props.resultIMC,
+            message: 'Meu imc hoje é: ' + props.resultIMC +" "+ weightIMC
         })
     }
     useEffect(() => {
